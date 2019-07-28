@@ -1,0 +1,11 @@
+<div>
+  <label for="user">
+    Usuario
+  </label>
+  <input #user>
+</div>
+<p>
+  <button (click)="login(user.value)">Iniciar Sesion</button>
+  <button (click)="loginServer(user.value)">Iniciar Sesion con servidor</button>
+
+</p>

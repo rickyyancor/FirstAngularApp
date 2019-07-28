@@ -1,3 +1,27 @@
+
+
+
+Se cuenta con un servidor rest simple que esta en la carpeta 'servidorRestNodejs' el log in de la app se puede dar de dos formas con los usuarios quemados en el codigo, o bien consumiendo el servicio rest, para correr el app de angular debe realizar el comando ng serve -o y para correr el servidorRestNodejs.js unicamente debe entrar en la carpeta y colocar node servidor.js quiza le solicite instalar 2 dependecias 'express' y 'body-parser' esto lo puede realizar con el comando npm install 'nombredelpaquete'.
+
+var users=[
+  {user:'noel',role:'Admin'},
+  {user:'oscar',role:'Guest'}
+];
+
+esta es la variable en el servidorRestNodejs en donde puede definir los usuarios que guste.
+
+
+
+
+
+
+
+
+
+
+
+
+
 # FirstAngularApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.2.
